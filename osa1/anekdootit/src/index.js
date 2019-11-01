@@ -16,7 +16,6 @@ const App = props => {
   const vote = index => {
     const copy = [...points];
     copy[index] += 1;
-    console.log(copy);
     return copy;
   };
 
